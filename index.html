@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendas Buy - Cursos Online</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vendas Buy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Vendas Buy</h1>
-            <p>Aprenda com os melhores cursos online</p>
+    <main>
+        <header>
+            <h1>Welcome to Vendas Buy</h1>
+        </header>
+        <div id="cursosGrid" class="grid-container">
+            <!-- Courses will be dynamically loaded here from dados.json -->
         </div>
-    </header>
-
-    <main class="container">
-        <section class="cursos-section">
-            <h2>Nossos Cursos</h2>
-            <div class="cursos-grid" id="cursosGrid">
-                <!-- Cursos serão carregados aqui pelo JavaScript -->
-            </div>
-        </section>
     </main>
-
-    <footer class="footer">
-        <p>&copy; 2026 Vendas Buy. Todos os direitos reservados.</p>
-    </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
